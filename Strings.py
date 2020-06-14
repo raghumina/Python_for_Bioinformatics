@@ -24,3 +24,10 @@ print(dna.upper())  # it will convert all the cases to upper case
 print(dna.replace("c", "o"))  # it will replace all "c" letters with "o"
 print(dna.find("ta"))  # it starts finding the "ta" from 0th position
 print(dna.rfind("ta"))  # it will find the given string form the reverse means from -1 position
+
+# Some more useful String functions
+
+print(dna.islower())  # boolean conditions checks the condition and return True or False
+print(dna.isupper())  # checks for upper case words
+print(dna.isspace())  # checks for space
+print(dna.isnumeric())  # Checks weather the variable is numeric or not 
