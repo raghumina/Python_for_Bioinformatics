@@ -37,11 +37,8 @@ print(dna.isnumeric())  # Checks weather the variable is numeric or not
 
 # read DNA sequence for user and count the number of "c" in it.
 # also determine the length of the DNA
-# and also calculate the GC%
 
 dna1 = input("Please enter your sequence here\n")
 dna_str = str(dna1)
-print("The count of c in DNA is:",dna1.count("c"),"\nThe length of DNA is:", len(dna1))
-
-
+print("The count of c in DNA is:", dna1.count("c"), "\nThe length of DNA is:", len(dna1))
 
