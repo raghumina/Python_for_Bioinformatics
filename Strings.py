@@ -1,5 +1,6 @@
 # In this module i am working on some basic bioinformatics concepts such as
 # working on bio sequences
+'''
 dna = "atgcccgcgcgatagagatatagcgacacgacgatcatc"
 print(dna.count("c"))  # to find the number of specific strands in DNA
 
@@ -30,4 +31,17 @@ print(dna.rfind("ta"))  # it will find the given string form the reverse means f
 print(dna.islower())  # boolean conditions checks the condition and return True or False
 print(dna.isupper())  # checks for upper case words
 print(dna.isspace())  # checks for space
-print(dna.isnumeric())  # Checks weather the variable is numeric or not 
+print(dna.isnumeric())  # Checks weather the variable is numeric or not
+'''
+# lets practice a simple program
+
+# read DNA sequence for user and count the number of "c" in it.
+# also determine the length of the DNA
+# and also calculate the GC%
+
+dna1 = input("Please enter your sequence here\n")
+dna_str = str(dna1)
+print("The count of c in DNA is:",dna1.count("c"),"\nThe length of DNA is:", len(dna1))
+
+
+
