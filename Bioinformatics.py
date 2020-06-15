@@ -152,7 +152,7 @@ dna=input("Enter DNA sequence:")
 dna_counts={'t':dna.count('t'),'c':dna.count('c'),'g':dna.count('g'),'a':dna.count('a')}
 nt=sorted(dna_counts.keys())
 print(nt[-1])
-'''
+
 
 # The conditional statements
 
@@ -172,6 +172,26 @@ while i < 100:
 else:
      i=1000
 print(i)
+'''
+i = 1
+while i < 2048:
+    i = 2 * i
+
+print(i)
 
 
+# function
+# FUNCTION FOR GC%
+
+def gc(dna):
+    nbases = dna.count("n") + dna.count("N")
+    gcpercent = float(dna.count("c") + dna.count("C") + dna.count("g") + dna.count("G")) * 100 / (len(dna) - nbases)
+    return gcpercent
+
+
+print(gc("ATGCGCGCTCTAAAGAGACACAG"))
+
+# Boolean function
+# Problem
+# write a program that checks that if a given dna sequence contains stop codon
 
