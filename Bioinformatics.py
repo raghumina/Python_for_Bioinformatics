@@ -63,3 +63,23 @@ print(gene_expression)
 # Assigning a new value to the variable
 gene_expression[0] = "Dna"
 print(gene_expression)   # this will add the Dna on the 0th position on the variable
+
+
+# list as Stack
+stack = ["1","2","3","4"]   # Stack uses the concept of LIFO    last in first out
+print(stack)
+stack.append("99")   # will add the given value in the last of the list
+print(stack)
+# lets try some other example
+# append a list in a list
+stack.append(["100","101","102","103"])
+print(stack)    # it will make the list a value in the list did not add the list
+
+# lets try extend
+stack.extend(["11","22","33","444","555"])
+print(stack)  # yes extend adds a list in a list
+
+# lets use pop function
+element = stack.pop()  # removes the last value from the list 
+print(element)    # this will show the popped value
+print(stack)    # show the complete list after pop
