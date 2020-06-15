@@ -195,3 +195,11 @@ print(gc("ATGCGCGCTCTAAAGAGACACAG"))
 # Problem
 # write a program that checks that if a given dna sequence contains stop codon
 
+def stop_codon(dna):
+    dna = input("Enter DNA sequence here: ")
+    if stop_codon(dna):
+        print("Input has a stop codon")
+    else:
+        print("Input dont have stop codon ")
+
+print(stop_codon(dna))
