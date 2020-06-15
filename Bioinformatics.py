@@ -92,3 +92,21 @@ print(sorted(stack1))  # it will sort the list in a order
 t = 1, 2, 3, 4, 5, 6, 7, 8
 print(t)
 
+brca1 = {22, 23, 23, 12, 34, 35, 34, 23, 22, 32, 43, 5, 35, 3, 53, 4, 23, 2, 32}
+brca2 = {"a", "b", "c", "d"}
+print(brca1, brca2)
+
+print(brca1 | brca2)  # union operator
+
+print(brca1 & brca2)  # intersection operator
+
+print(brca1 - brca2)  # difference operator
+
+# Dictionaries
+
+motif = {"SP1": "gggccg",
+         "C/EBP": "attggttcc",
+         "ATF": "tgactga",
+         "c-MYC": "cactgt",
+         "OCt-1": "atgcaatg"}
+print(motif)
