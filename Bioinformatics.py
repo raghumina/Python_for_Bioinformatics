@@ -110,3 +110,32 @@ motif = {"SP1": "gggccg",
          "c-MYC": "cactgt",
          "OCt-1": "atgcaatg"}
 print(motif)
+
+# for specific key
+print(motif["SP1"])
+print(motif["SP1"])
+
+# to check if a key is present in dicitonary or not
+
+print("SP1" in motif)  # true means present
+print("tot" in motif)  # false not present
+
+# updating a dictionary
+motif["SP1"] = "aaaaatttttttgggggccccgcgcg"
+print(motif["SP1"])
+print(motif)
+
+# deleting a key from dictionary
+del motif["SP1"]
+print(motif)
+
+# to add another dicitonary
+motif.update({"sp1": "ttggttg", "ap1": "tototot"})
+print(motif)
+print(len(motif))
+
+# to get all the keys of a dictionary
+print(list(motif.keys()))
+# and to get the values of all the keys
+print(list(motif.values()))
+
