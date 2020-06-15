@@ -53,7 +53,6 @@ seqlen = '10bp'
 seqlen='2'+seqlen
 seqlen=seqlen*2
 print(seqlen)
-'''
 
 # List in Python
 
@@ -153,3 +152,26 @@ dna=input("Enter DNA sequence:")
 dna_counts={'t':dna.count('t'),'c':dna.count('c'),'g':dna.count('g'),'a':dna.count('a')}
 nt=sorted(dna_counts.keys())
 print(nt[-1])
+'''
+
+# The conditional statements
+
+dna = input("Enter DNA seq:")
+if "n" in dna:
+    nbases = dna.count("n")
+    print("dna sequences %d unidentified bases" % nbases)
+else:
+    print("n not present in dna")
+
+
+# problems
+i = 1
+while i < 100:
+          if i%2 == 0 : break
+          i += 1
+else:
+     i=1000
+print(i)
+
+
+
