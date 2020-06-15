@@ -139,3 +139,17 @@ print(list(motif.keys()))
 # and to get the values of all the keys
 print(list(motif.values()))
 
+
+# problems
+x = [1e-10,(1,2),"BGP",[3]]
+print(type(x))
+grades = [70,80.0,90,100]
+print((grades[1]+grades[3])/2)
+splice_site_pairs = ['GT-AG','GC-AG','AT-AC']
+print(splice_site_pairs[:-1])
+
+#
+dna=input("Enter DNA sequence:")
+dna_counts={'t':dna.count('t'),'c':dna.count('c'),'g':dna.count('g'),'a':dna.count('a')}
+nt=sorted(dna_counts.keys())
+print(nt[-1])
