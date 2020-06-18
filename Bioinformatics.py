@@ -172,7 +172,7 @@ while i < 100:
 else:
      i=1000
 print(i)
-'''
+
 i = 1
 while i < 2048:
     i = 2 * i
@@ -203,3 +203,12 @@ def stop_codon(dna):
         print("Input dont have stop codon ")
 
 print(stop_codon(dna))
+'''
+
+# A function to check for in frame stop codons
+def has_stop_codon(dna):
+    stop_codon_foound = False
+    stop_codon = ["tag","tga","taa"]
+    for i in range(0,len(dna),3):
+        
+
