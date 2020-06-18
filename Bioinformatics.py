@@ -206,9 +206,16 @@ print(stop_codon(dna))
 '''
 
 # A function to check for in frame stop codons
-def has_stop_codon(dna):
-    stop_codon_foound = False
+def has_stop_codon(dna,frame = 0):
+    stop_codon_found = False
     stop_codon = ["tag","tga","taa"]
-    for i in range(0,len(dna),3):
-        
+    for i in range(frame,len(dna),3):
+        codon = dna [i:i+3].lower()
+        if codon in stop_codon:
+            stop_codon_found = True
+            break
+    return stop_codon_found
+
+dna = "atgctgaaattgagagttatga"
+print(has_stop_codon(dna))
 
