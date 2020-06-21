@@ -242,7 +242,7 @@ n = -1
 x = 2
 y = 3
 print(compute(n,x,y))
-'''
+
 
 
 #
@@ -255,7 +255,7 @@ def f(mystring):
 
 message = "Outside function!"
 f("Test function:")
-
+'''
 #
 def count1(dna, base):
     i = 0
@@ -283,3 +283,8 @@ def count5(dna, base):
 
 def count6(dna,base):
     return sum(c == base for c in dna)
+
+dna = "atgcatcacgacgtcacgatcgactgac"
+base = "atgcgvcaca"
+print(count1(dna,base))
+print(count2(dna,base))
