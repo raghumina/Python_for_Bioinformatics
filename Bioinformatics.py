@@ -203,7 +203,7 @@ def stop_codon(dna):
         print("Input dont have stop codon ")
 
 print(stop_codon(dna))
-'''
+
 
 # A function to check for in frame stop codons
 def has_stop_codon(dna,frame = 0):
@@ -218,4 +218,27 @@ def has_stop_codon(dna,frame = 0):
 
 dna = "atgctgaaattgagagttatga"
 print(has_stop_codon(dna))
+'''
+#
+def function1(length):
+    if length > 0:
+        print(length)
+        function1(length - 1)
+def function2(length):
+    while length > 0:
+        print(length)
+        function2(length - 1)
 
+length = 3
+print(function1(length))
+#print(function2(length))
+
+#
+def compute(n,x,y) :
+    if n==0 : return x
+    return compute(n-1,x+y,y)
+
+n = -1
+x = 2
+y = 3
+print(compute(n,x,y))
