@@ -255,7 +255,7 @@ def f(mystring):
 
 message = "Outside function!"
 f("Test function:")
-'''
+
 #
 def count1(dna, base):
     i = 0
@@ -288,3 +288,6 @@ dna = "atgcatcacgacgtcacgatcgactgac"
 base = "atgcgvcaca"
 print(count1(dna,base))
 print(count2(dna,base))
+
+'''
+
