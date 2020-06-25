@@ -9,3 +9,5 @@
 X_File = open('Sequence.txt')
 for word in X_File:
     print(word)
+
+import
