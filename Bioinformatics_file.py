@@ -8,6 +8,8 @@
 
 X_File = open('Sequence.txt')
 for word in X_File:
-    print(word)
+    print(X_File.read())
 
-import
+x_file = open('Sequence.txt','w')
+x_file.write("the sequecne are\n")
+print(x_file)
