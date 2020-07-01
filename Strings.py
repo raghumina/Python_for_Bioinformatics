@@ -24,5 +24,5 @@ print(random.seed(7))
 seq12 = ''
 for _ in range(100):
     seq12 += random.choice("ATGC")
-    
+
 print(seq12.lower())
