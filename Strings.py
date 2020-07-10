@@ -40,3 +40,20 @@ def longest(s1, s2):
 print(longest('ATACGTGCT', 'ATAACACVAC'))
 '''
 
+# function to check the exact similarity of the strings
+
+def match(s1, s2):
+    while s1 == s2 and s2 == s1:
+        return print(s1 , s2 ,"are similar")
+    else:
+        print("NOT SIMILAR")
+
+
+print(match('ATCCTE','ATCCT'))
+
+# the another way to check is
+#
+def match1(s1, s2):
+    if not len(s1) == len(s2):
+        return False
+    
