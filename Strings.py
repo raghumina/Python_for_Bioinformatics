@@ -49,7 +49,7 @@ def match(s1, s2):
 
 
 print(match('ATCCTE','ATCCT'))
-'''
+
 # the another way to check is
 # TO CHECK THE SIMILARITY OF THE STRING IN THE LENGTH
 
@@ -62,6 +62,20 @@ def similartiy(str1, str2):
 str1 = "ATGCTCGA"
 str2 = "ATGC"
 print(similartiy(str1, str2))
+'''
+
 
 # Or an another way is
+# to find the longest common prefrix
 
+
+def longpref(str1, str2):
+    i = 0
+    while i < len(str1) and i < len(str2) and str1[i] == str2[i]:
+        i += 1
+    return str1[:i]
+
+str1 = "atgcatgc"
+str2 = "atgcatcgatcg"
+
+print(longpref(str1, str2))
