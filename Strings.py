@@ -92,3 +92,4 @@ def match(s1, s2):
 s1 = "atgc"
 s2 = "attgc"
 print(match(s1, s2))
+
