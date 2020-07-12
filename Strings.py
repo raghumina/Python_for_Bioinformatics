@@ -38,7 +38,6 @@ def longest(s1, s2):
 
 
 print(longest('ATACGTGCT', 'ATAACACVAC'))
-'''
 
 # function to check the exact similarity of the strings
 
@@ -50,10 +49,19 @@ def match(s1, s2):
 
 
 print(match('ATCCTE','ATCCT'))
-
+'''
 # the another way to check is
-#
-def match1(s1, s2):
-    if not len(s1) == len(s2):
-        return False
-    
+# TO CHECK THE SIMILARITY OF THE STRING IN THE LENGTH
+
+def similartiy(str1, str2):
+    count = 0
+    if len(str1) == len(str2) and type(str1) == type(str2) and str1 == str2:
+        print("Equal")
+    else:
+        print("not equal")
+str1 = "ATGCTCGA"
+str2 = "ATGC"
+print(similartiy(str1, str2))
+
+# Or an another way is
+
