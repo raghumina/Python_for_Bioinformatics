@@ -290,4 +290,3 @@ print(count1(dna,base))
 print(count2(dna,base))
 
 '''
-
