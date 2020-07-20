@@ -30,6 +30,8 @@ for _ in range(100):
 print(seq12.lower())
 
 
+
+
 def longest(s1, s2):
     i = 0
     while i <= len(s1) and i <= len(s2) and s1[i] == s2[i]:
