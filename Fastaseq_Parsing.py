@@ -9,7 +9,10 @@
 
 # now converting values into ascii
 data = [line.strip() for line in open("seq1.fasta", 'r')]
+print(count(data))
+
 seq1 = []
-for seq in data:
+for  seq in data:
     seq1.extend(ord(num) for num in seq)
-print(str(seq1))
+print(" %s"%(seq1))
+
