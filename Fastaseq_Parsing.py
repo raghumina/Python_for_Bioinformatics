@@ -7,7 +7,6 @@ import pandas as pd
 #    print(repr(seq_record.seq))
 #    print(len(seq_record))
 
-''''
 # now converting values into ascii
 data = [line.strip() for line in open("seq1.fasta", 'r')]
 
@@ -22,12 +21,13 @@ for  seq in data:
     seq1.extend(ord(num) for num in seq)
     count = count + 1
 print(count, seq1)
-
+'''
 #f = open("seq1.fasta","a",encoding="utf-8")
 
 ##result = list(f.encoding(f))
 #print(result)
-'''
+
 
 sequence = ["ATGC"]
-result 
+result
+'''
