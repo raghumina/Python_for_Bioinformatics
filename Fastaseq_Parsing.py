@@ -8,6 +8,10 @@ import pandas as pd
 #    print(len(seq_record))
 
 # now converting values into ascii
+
+
+
+
 data = [line.strip() for line in open("seq1.fasta", 'r')]
 
 #print(data)
@@ -21,6 +25,16 @@ for  seq in data:
     seq1.extend(ord(num) for num in seq)
     count = count + 1
 print(count, seq1)
+
+
+
+
+
+
+
+
+
+
 '''
 #f = open("seq1.fasta","a",encoding="utf-8")
 
