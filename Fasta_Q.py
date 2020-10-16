@@ -11,9 +11,8 @@ for r in SeqIO.parse("seq1.fasta", "fasta"):
 
 
 
-
+Q = "ATGC"
 print(r)
 def QtoPhred33(Q):
     return chr(Q + 33)
-Q = r.format("fastaq")
 print(QtoPhred33(Q))
